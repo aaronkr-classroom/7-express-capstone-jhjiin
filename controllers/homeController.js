@@ -5,7 +5,15 @@
  * Listing 12.5 (p. 178)
  * 홈 컨트롤러로의 라우팅
  */
-
+exports.showCourses = (req, res) => {
+    res.render("courses");
+};
+exports.showSignUp = (req, res) => {
+    res.render("contact");
+};
+exports.showCourses = (req, res) => {
+    res.render("thanks");
+};
 
 /**
  * Listing 12.9 (p. 182)
