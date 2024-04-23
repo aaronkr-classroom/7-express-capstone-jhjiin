@@ -30,23 +30,13 @@
     <script defer src="js/functions.js"></script>
   </head>
   <body>
-    <%- include('partials/header'); %>
-    <%- bodt; %>
-    <%- include('partials/header'); %>
-
-<!-- @TODO: index.ejs -->
-<main class="text-center cover-container">
-  <div id="index" class="cover-content h-100 w-100 text-white">
-    <div class="cover-box-2">
-      <h1 class="page-title">Welcome to Aaron's Node Site!</h1>
-      <p class="page-description lead">
-        This is a simple site built with Node.js and Express.
-      </p>
-    </div>
-  </div>
-</main>
-
-
+    <%- include('partials/nav');%>
+    <%- body;%>
+    <%- include('partials/footer');%>
+    <!-- @TODO: partials/header.ejs -->
+    <!-- @TODO: 로고가 있는 헤더와 4개 이상의 항목이 포함된 탐색 메뉴를 생성하십시오 -->
+  
+    
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
@@ -57,5 +47,3 @@
     모든 페이지에 추가 내용이 반영될 것이다.
 -->
 </html>
-
-
